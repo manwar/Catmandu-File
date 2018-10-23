@@ -32,7 +32,7 @@ Catmandu::Fix::Condition::dir_exists - only execute fixes if the directory exist
    if dir_exists(path)
      add_field(error, "some error occured")
    end
-   
+
    # inverted
    # path => /var/log/errors
    unless dir_exists(path)
