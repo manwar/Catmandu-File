@@ -1,14 +1,19 @@
 # NAME
 
-Catmandu::File - Blah blah blah
+Catmandu::Fix::Condition::dir\_exists - only execute fixes if the directory exists
 
 # SYNOPSIS
 
-    use Catmandu::File;
+    # path => /var/log/errors
+    if dir_exists(path)
+      add_field(error, "some error occured")
+    end
 
-# DESCRIPTION
-
-Catmandu::File is
+    # inverted
+    # path => /var/log/errors
+    unless dir_exists(path)
+      add_field(no_error, "no error!")
+    end
 
 # AUTHOR
 
@@ -24,3 +29,5 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 # SEE ALSO
+
+[Catmandu::Fix](https://metacpan.org/pod/Catmandu::Fix)

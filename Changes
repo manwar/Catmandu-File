@@ -1,4 +1,6 @@
 Revision history for Catmandu-File
 
 {{$NEXT}}
-        - Initial release
+
+0.01  2018-10-23 15:44:03 CEST
+        - Initial release: provide the conditions for Catmandu "file_exists" and "dir_exists"
