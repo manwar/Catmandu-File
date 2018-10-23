@@ -1,7 +1,10 @@
-/Catmandu-File-*
-/.build
-/_build*
-/Build
-MYMETA.*
 !META.json
+/.build
 /.prove
+/Build
+/Catmandu-File-*
+/_build*
+MYMETA.*
+cpanfile.snapshot
+local/*
+.tidyall.d/*
