@@ -1,4 +1,6 @@
 requires 'perl', '5.10.1';
+requires 'Moo';
+requires 'namespace::clean';
 
 # requires 'Some::Module', 'VERSION';
 
